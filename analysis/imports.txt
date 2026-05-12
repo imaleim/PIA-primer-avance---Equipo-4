@@ -1,0 +1,38 @@
+[Imports]
+nth vaddr      bind   type   lib name
+―――――――――――――――――――――――――――――――――――――
+1   0x000021e0 GLOBAL FUNC       pcap_loop
+2   0x000021f0 GLOBAL FUNC       sym.imp.std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+3   0x00002200 GLOBAL FUNC       pcap_findalldevs
+4   0x00002210 GLOBAL FUNC       sym.imp.std::basic_ifstream<char, std::char_traits<char> >::close()
+5   0x00002220 GLOBAL FUNC       sym.imp.std::ostream::operator<<(unsigned long)
+6   0x00002230 GLOBAL FUNC       sym.imp.std::basic_ifstream<char, std::char_traits<char> >::~basic_ifstream()
+7   0x00002240 GLOBAL FUNC       sym.imp.std::ostream::operator<<(std::ios_base& (*)(std::ios_base&))
+8   0x00002250 GLOBAL FUNC       pcap_open_live
+9   0x00002260 GLOBAL FUNC       sym.imp.std::basic_ios<char, std::char_traits<char> >::operator!() const
+10  0x00000000 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+11  0x00002270 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
+12  0x00002280 GLOBAL FUNC       __cxa_atexit
+13  0x00002290 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, std::allocator<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+14  0x000022a0 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)
+15  0x000022b0 GLOBAL FUNC       sym.imp.std::ostream::operator<<(std::ostream& (*)(std::ostream&))
+16  0x000022c0 GLOBAL FUNC       __stack_chk_fail
+17  0x000022d0 GLOBAL FUNC       sym.imp.std::basic_ios<char, std::char_traits<char> >::operator bool() const
+18  0x000022e0 GLOBAL FUNC       sym.imp.std::ostream::operator<<(unsigned int)
+19  0x000022f0 GLOBAL FUNC       sym.imp.std::istream::get(char&)
+20  0x00002300 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()
+21  0x00002310 GLOBAL FUNC       pcap_close
+22  0x00002320 GLOBAL FUNC       opendir
+23  0x00002330 GLOBAL FUNC       readdir
+24  0x00002340 GLOBAL FUNC       sym.imp.std::ios_base::Init::Init()
+25  0x00002350 GLOBAL FUNC       closedir
+26  0x00000000 GLOBAL FUNC       __gxx_personality_v0
+27  0x00000000 WEAK   NOTYPE     _ITM_deregisterTMCloneTable
+28  0x00002360 GLOBAL FUNC       _Unwind_Resume
+29  0x00002370 GLOBAL FUNC       sym.imp.std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(char const*, std::_Ios_Openmode)
+30  0x00000000 GLOBAL FUNC       __libc_start_main
+31  0x00000000 WEAK   NOTYPE     __gmon_start__
+32  0x00000000 WEAK   NOTYPE     _ITM_registerTMCloneTable
+33  0x00000000 GLOBAL FUNC       sym.imp.std::ios_base::Init::~Init()
+34  0x00000000 WEAK   FUNC       __cxa_finalize
+
